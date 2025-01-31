@@ -10,3 +10,6 @@ Steps:
 5) cd TIMESTAMP
 6) pip install -r rerequirements.txt
 7) celery -A Timestamps worker --loglevel=info & python manage.py runserver &
+8) http://127.0.0.1:8000/admin/
+    usernmae: admin
+    password: admin123
